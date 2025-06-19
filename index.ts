@@ -5,11 +5,11 @@ const matrix = [
     [[0, 1], [2, 2]]
 ];
 
-const epochs = 20;
-const initialPopulation = [.8, .8, .8, .8];
-const r = 1.5;
-const mutationProbability = 0.001;
-const mutationAmount = 0.01;
+const epochs = 10;
+const initialPopulation = [.6, .6, .6, .6];
+const r = 1.1;
+const mutationProbability = 0.3;
+const mutationAmount = 0.1;
 
 /**
 * @description This function performs the game of life taking the choices of X and Y as boolean values and returning the numbers of offspring for each of the parents.

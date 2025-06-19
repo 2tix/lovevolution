@@ -32,4 +32,14 @@ The values are defined as follows:
 |---|--------|--------|
 | C | (2, 2) | (0, 1) |
 | D | (1, O) | (1, 1) |
+## Results
+One of the results with the following settings: 
+```js
+const epochs = 10;
+const initialPopulation = [.6, .6, .6, .6];
+const r = 1.1;
+const mutationProbability = 0.3;
+const mutationAmount = 0.1;
+```
+![img.png](img.png)
 
